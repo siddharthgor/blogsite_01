@@ -97,9 +97,5 @@ class Home extends BaseController
         echo view('viewblog');
         echo view('layouts/footer');
     }
-    /**
-     */
-    function __construct()
-    {
-    }
+    
 }
