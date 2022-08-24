@@ -2,13 +2,13 @@
 
 namespace App\Controllers;
 
-use App\Models\BloglssModel;
-use \App\Models\ContactModel;
-use \App\Models\SignupModel;
-use \App\Models\LoginModel;
-use \App\Models\Update;
 use \App\Models\Abc;
+use App\Models\BloglssModel;
 use App\Models\Categories;
+use \App\Models\ContactModel;
+use \App\Models\LoginModel;
+use \App\Models\SignupModel;
+use \App\Models\Update;
 
 class Pages extends BaseController
 {
