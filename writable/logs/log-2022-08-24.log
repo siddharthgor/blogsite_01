@@ -1,0 +1,13 @@
+ERROR - 2022-08-24 06:55:49 --> Unknown column 'phone_number' in 'field list'
+CRITICAL - 2022-08-24 06:55:49 --> Unknown column 'phone_number' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `contact_us` (`name`, `phone_number`, `email`, `message`) VALUES (\'SIDDHARTH GOR\', \'8787878787\', \'gorsiddharth@gmail.com\', \'ssssssssssssss\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contact_us` (`name`, `phone_number`, `email`, `message`) VALUES (\'SIDDHARTH GOR\', \'8787878787\', \'gorsiddharth@gmail.com\', \'ssssssssssssss\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contact_us` (`name`, `phone_number`, `email`, `message`) VALUES (\'SIDDHARTH GOR\', \'8787878787\', \'gorsiddharth@gmail.com\', \'ssssssssssssss\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_us` (`name`, `phone_number`, `email`, `message`) VALUES (:name:, :phone_number:, :email:, :message:)', [...], false)
+ 5 APPPATH\Models\ContactModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pages.php(204): App\Models\ContactModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
