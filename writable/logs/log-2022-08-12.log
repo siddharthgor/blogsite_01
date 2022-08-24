@@ -1,0 +1,640 @@
+CRITICAL - 2022-08-12 00:00:40 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 00:28:00 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\layouts\header.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts//header', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('layouts//header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:03:19 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:03:28 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:03:33 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:03:46 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:48:44 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:48:50 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:48:53 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:48:58 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:49:27 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:55:49 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:56:13 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:57:34 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:57:35 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:57:36 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:58:03 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 02:58:12 --> Undefined constant "App\Controllers\blogs"
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:00:33 --> Undefined array key "blog_title"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:01:12 --> Undefined array key "blogs[blog_title]"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blogs[blog_title]"', 'APPPATH\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:01:50 --> Undefined array key "blogs(blog_title)"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blogs(blog_title)"', 'APPPATH\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:02:14 --> Undefined array key "blogs[blog_title]"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blogs[blog_title]"', 'APPPATH\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:02:26 --> Undefined array key "blog_title"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:04:26 --> Undefined variable $blogs
+in APPPATH\Models\Abc.php on line 17.
+ 1 APPPATH\Models\Abc.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogs', 'APPPATH\\Models\\Abc.php', 17)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Models\\Abc.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Abc.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Abc')
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Abc')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:17:40 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:17:43 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:20:26 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:21:32 --> Undefined variable $title
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:22:54 --> Call to a member function exists() on string
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:23:03 --> syntax error, unexpected identifier "exists"
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:23:08 --> Call to undefined function App\Controllers\exists()
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:23:20 --> Call to a member function exists() on string
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:23:44 --> Undefined constant "App\Controllers\title"
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:23:48 --> Call to a member function exists() on array
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 03:24:15 --> Call to a member function exists() on string
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('43', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:13:50 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-12 06:16:28 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-12 06:17:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-12 06:17:04 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-12 06:17:04 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\BaseBuilder.php on line 1343.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-12 06:17:14 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\BaseConnection.php on line 1032.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-12 06:22:31 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xampp\htdocs\blogsite\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:29:35 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:09 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:10 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:10 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:10 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:10 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:10 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:30:18 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(48): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->current_affairs()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:31:10 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(48): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->current_affairs()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:31:11 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(48): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->current_affairs()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:31:15 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:31:25 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:31:27 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 23.
+ 1 APPPATH\Views\categories\all.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:33:00 --> Call to a member function where() on array
+in APPPATH\Views\categories\all.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 4 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:33:32 --> Undefined variable $blog_title
+in APPPATH\Views\categories\all.php on line 25.
+ 1 APPPATH\Views\categories\all.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\categories\\all.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:33:40 --> syntax error, unexpected token ";"
+in APPPATH\Views\categories\all.php on line 25.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 3 APPPATH\Controllers\Home.php(28): view('categories/all')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:39:33 --> Undefined variable $blog_title
+in APPPATH\Views\layouts\index.php on line 23.
+ 1 APPPATH\Views\layouts\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\layouts\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:40:55 --> Undefined variable $data
+in APPPATH\Views\layouts\index.php on line 13.
+ 1 APPPATH\Views\layouts\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\layouts\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:42:27 --> Undefined variable $blog_title
+in APPPATH\Views\layouts\index.php on line 25.
+ 1 APPPATH\Views\layouts\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'APPPATH\\Views\\layouts\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 06:49:43 --> Too few arguments to function App\Controllers\Home::viewblog(), 1 passed in C:\xampp\htdocs\blogsite\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:07:45 --> Undefined array key "blog_title"
+in APPPATH\Views\layouts\index.php on line 1.
+ 1 APPPATH\Views\layouts\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Views\\layouts\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:08:24 --> Undefined array key "blog_title"
+in APPPATH\Views\layouts\index.php on line 1.
+ 1 APPPATH\Views\layouts\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Views\\layouts\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:08:28 --> Undefined array key "blog_title"
+in APPPATH\Views\layouts\index.php on line 1.
+ 1 APPPATH\Views\layouts\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Views\\layouts\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:08:45 --> Undefined variable $product
+in APPPATH\Views\layouts\index.php on line 1.
+ 1 APPPATH\Views\layouts\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\layouts\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:10:22 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\layouts\index.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:52:26 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:54:49 --> Undefined array key "blog_title"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Controllers\\Home.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:13 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:14 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:14 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:14 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:14 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:14 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:15 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:15 --> Cannot use object of type App\Models\Abc as array
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('41', 'gujarat-election-time')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:47 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:48 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 07:55:48 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 23:31:17 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Pages.php on line 298.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 23:31:32 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Pages.php on line 298.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 23:31:40 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Pages.php on line 298.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 23:35:05 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Pages.php on line 298.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 23:38:39 --> Unclosed '{' on line 287 does not match ')'
+in APPPATH\Controllers\Pages.php on line 299.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

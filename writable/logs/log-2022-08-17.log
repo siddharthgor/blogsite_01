@@ -1,0 +1,629 @@
+CRITICAL - 2022-08-17 00:26:47 --> Undefined array key "blog_title"
+in APPPATH\Views\layouts\index.php on line 26.
+ 1 APPPATH\Views\layouts\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Views\\layouts\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 00:28:00 --> Undefined array key "blog_title"
+in APPPATH\Views\viewblog.php on line 19.
+ 1 APPPATH\Views\viewblog.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Views\\viewblog.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewblog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewblog', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('viewblog')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('rockets-of-india-2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 00:28:33 --> Undefined array key "blog_title"
+in APPPATH\Views\categories\all.php on line 20.
+ 1 APPPATH\Views\categories\all.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Views\\categories\\all.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 00:33:08 --> Unknown column 'user_id' in 'where clause'
+CRITICAL - 2022-08-17 00:33:08 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Pages.php(396): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->update()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 00:35:00 --> Unknown column 'user_id' in 'where clause'
+CRITICAL - 2022-08-17 00:35:00 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Pages.php(396): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->update()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 00:38:01 --> Unknown column 'user_id' in 'where clause'
+CRITICAL - 2022-08-17 00:38:01 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_id` = \'57\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Pages.php(396): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->update()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 02:17:04 --> Undefined array key "first_name_user"
+in APPPATH\Views\layouts\index.php on line 24.
+ 1 APPPATH\Views\layouts\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name_user"', 'APPPATH\\Views\\layouts\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:47:44 --> Unclosed '{' on line 94
+in APPPATH\Views\pages\blogs.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 3 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:48:01 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 94.
+ 1 APPPATH\Views\pages\blogs.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:48:48 --> Undefined array key "catrgories"
+in APPPATH\Controllers\Pages.php on line 225.
+ 1 APPPATH\Controllers\Pages.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "catrgories"', 'APPPATH\\Controllers\\Pages.php', 225)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:49:56 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 94.
+ 1 APPPATH\Views\pages\blogs.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:51:44 --> Undefined variable $data
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:52:05 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:52:31 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:54:26 --> Undefined variable $category
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:54:32 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:56:43 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:56:49 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 9.
+ 1 APPPATH\Views\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(287): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:56:57 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 1.
+ 1 APPPATH\Views\pages\blogs.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 04:57:57 --> Undefined variable $categories
+in APPPATH\Views\pages\blogs.php on line 94.
+ 1 APPPATH\Views\pages\blogs.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\blogs.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(288): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 04:59:16 --> Unknown column 'first_name_user' in 'field list'
+CRITICAL - 2022-08-17 04:59:16 --> Unknown column 'first_name_user' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (:first_name_user:, :last_name_user:, :title:, :description:, :categories:, :slug:)', [...], false)
+ 5 APPPATH\Models\BloglssModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pages.php(275): App\Models\BloglssModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 05:00:42 --> Unknown column 'first_name_user' in 'field list'
+CRITICAL - 2022-08-17 05:00:42 --> Unknown column 'first_name_user' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (:first_name_user:, :last_name_user:, :title:, :description:, :categories:, :slug:)', [...], false)
+ 5 APPPATH\Models\BloglssModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pages.php(275): App\Models\BloglssModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:03:53 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\blogsite\app\Helpers\function_helper.php on line 7
+in SYSTEMPATH\Helpers\url_helper.php on line 475.
+ 1 APPPATH\Helpers\function_helper.php(7): url_title(null, '-', true)
+ 2 APPPATH\Controllers\Pages.php(272): unique_slug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:05:17 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\blogsite\app\Helpers\function_helper.php on line 7
+in SYSTEMPATH\Helpers\url_helper.php on line 475.
+ 1 APPPATH\Helpers\function_helper.php(7): url_title(null, '-', true)
+ 2 APPPATH\Controllers\Pages.php(272): unique_slug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:05:19 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\blogsite\app\Helpers\function_helper.php on line 7
+in SYSTEMPATH\Helpers\url_helper.php on line 475.
+ 1 APPPATH\Helpers\function_helper.php(7): url_title(null, '-', true)
+ 2 APPPATH\Controllers\Pages.php(272): unique_slug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:06:01 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\blogsite\app\Helpers\function_helper.php on line 7
+in SYSTEMPATH\Helpers\url_helper.php on line 475.
+ 1 APPPATH\Helpers\function_helper.php(7): url_title(null, '-')
+ 2 APPPATH\Controllers\Pages.php(272): unique_slug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:06:27 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\blogsite\app\Helpers\function_helper.php on line 7
+in SYSTEMPATH\Helpers\url_helper.php on line 475.
+ 1 APPPATH\Helpers\function_helper.php(7): url_title(null, '-', true)
+ 2 APPPATH\Controllers\Pages.php(272): unique_slug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 05:06:54 --> Unknown column 'first_name_user' in 'field list'
+CRITICAL - 2022-08-17 05:06:54 --> Unknown column 'first_name_user' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `blogs` (`first_name_user`, `last_name_user`, `title`, `description`, `categories`, `slug`) VALUES (:first_name_user:, :last_name_user:, :title:, :description:, :categories:, :slug:)', [...], false)
+ 5 APPPATH\Models\BloglssModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pages.php(275): App\Models\BloglssModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 05:07:17 --> Unknown column 'categories' in 'field list'
+CRITICAL - 2022-08-17 05:07:17 --> Unknown column 'categories' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `blogs` (`first_name`, `last_name`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `blogs` (`first_name`, `last_name`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `blogs` (`first_name`, `last_name`, `title`, `description`, `categories`, `slug`) VALUES (\'Siddharth \', \'Gor   \', \'hello\', \'asdasasdadadasd\', \'5\', \'hello\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `blogs` (`first_name`, `last_name`, `title`, `description`, `categories`, `slug`) VALUES (:first_name:, :last_name:, :title:, :description:, :categories:, :slug:)', [...], false)
+ 5 APPPATH\Models\BloglssModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pages.php(275): App\Models\BloglssModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 05:23:14 --> Unknown column 'categories' in 'where clause'
+CRITICAL - 2022-08-17 05:23:14 --> Unknown column 'categories' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+WHERE `categories` = \'technology\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+WHERE `categories` = \'technology\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+WHERE `categories` = \'technology\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+WHERE `categories` = :categories:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(65): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->technology()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:27:21 --> Too few arguments to function App\Controllers\Home::technology(), 0 passed in C:\xampp\htdocs\blogsite\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->technology()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:32:29 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Pages.php on line 288.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 05:32:38 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Pages.php on line 288.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 06:22:35 --> CodeIgniter\Database\BaseBuilder::join(): Argument #1 ($table) must be of type string, App\Models\Categories given, called in C:\xampp\htdocs\blogsite\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 593.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->join(Object(App\Models\Categories), 'categories.id = blogs.category_id')
+ 2 APPPATH\Controllers\Home.php(27): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 06:24:06 --> Unknown column 'politics' in 'where clause'
+CRITICAL - 2022-08-17 06:24:06 --> Unknown column 'politics' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = \'politics\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = \'politics\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = \'politics\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = :politics:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(27): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 06:24:19 --> Unknown column 'politics' in 'where clause'
+CRITICAL - 2022-08-17 06:24:19 --> Unknown column 'politics' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = \'name\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = \'name\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = \'name\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `politics` = :politics:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(27): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 06:24:54 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\blogsite\system\Model.php on line 771 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 672.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\Home.php(27): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 06:25:17 --> Unknown column 'Politics' in 'where clause'
+CRITICAL - 2022-08-17 06:25:17 --> Unknown column 'Politics' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `Politics` = \'name\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `Politics` = \'name\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `Politics` = \'name\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `Politics` = :Politics:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(27): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 06:53:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`slug`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`catego...' at line 1
+CRITICAL - 2022-08-17 06:53:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`slug`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`catego...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`slug` `blogs`.`slug`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Politics\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`slug` `blogs`.`slug`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Politics\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`slug` `blogs`.`slug`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Politics\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`slug` `blogs`.`slug`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 06:55:45 --> Undefined array key "title"
+in APPPATH\Views\categories\all.php on line 21.
+ 1 APPPATH\Views\categories\all.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\categories\\all.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 06:56:27 --> Undefined array key "blogs.slug"
+in APPPATH\Views\categories\all.php on line 24.
+ 1 APPPATH\Views\categories\all.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blogs.slug"', 'APPPATH\\Views\\categories\\all.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 07:27:09 --> Unknown column 'sports' in 'where clause'
+CRITICAL - 2022-08-17 07:27:09 --> Unknown column 'sports' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `sports` = \'sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `sports` = \'sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `sports` = \'sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `sports` = :sports:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(39): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 07:31:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`id` = '1'' at line 4
+CRITICAL - 2022-08-17 07:31:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`id` = '1'' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `category_` `id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `category_` `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `category_` `id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `category_` `id` = :category_ id:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(39): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 07:38:26 --> Unknown column 'Sports' in 'where clause'
+CRITICAL - 2022-08-17 07:38:26 --> Unknown column 'Sports' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `categories`.`name` = Sports', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `categories`.`name` = Sports')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `categories`.`name` = Sports')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `categories`.`name` = Sports', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-17 07:41:59 --> Unknown column 'name[0]' in 'where clause'
+CRITICAL - 2022-08-17 07:41:59 --> Unknown column 'name[0]' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name[0]` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name[0]` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name[0]` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name[0]` = :name[0]:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,142 @@
+CRITICAL - 2022-07-31 23:13:50 --> Invalid file: pages/blogs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/blogs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 3 APPPATH\Controllers\Pages.php(52): view('pages/blogs')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:24:20 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ci4')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pages.php(51): redirect('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\layouts\\header.php -->
+
+
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="././public/assests/css/style.css" type="text/css" >
+    <link rel="stylesheet" href="http://localhost/ci4/public/assests/css/style.css">
+    
+  </head>
+  <body>
+   
+    
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light"    id="mainNav">
+      <div class="container px-4 px-lg-5"> <center> 
+        <a class="navbar-brand" href="http://localhost/ci4">Blog Site</a></center>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto py-4 py-lg-0">
+            <li class="nav-item"><a class="nav-link" href="http://localhost/ci4">Home</a></li>
+            <li class="nav-item"><a class="nav-link " href="http://localhost/ci4/pages/categories">Categories</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://localhost/ci4/pages/contact">Contact</a></li>
+            
+        <div class="d-flex align-items-center">
+        <a class="nav-link px-md-0 py-0 py-lg-" href="http://localhost/ci4/pages/login"><button type="button " id="login" class="btn  btn-success me-1       ">
+          Login </button></a>
+         
+        <a class="nav-link px-lg-1 py-0 py-md-1" href="http://localhost/ci4/pages/signup">
+        <button type="button" id="button" class="btn btn-primary  ">
+          Sign up for free    </button> </a>
+     
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\layouts\\header.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:24:33 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ci4')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pages.php(51): redirect('layouts/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:24:47 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ci4')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pages.php(51): redirect('layouts/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:31:17 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ci4')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pages.php(51): redirect('blogs')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:39:38 --> Undefined variable $title
+in APPPATH\Views\pages\blogs.php on line 4.
+ 1 APPPATH\Views\pages\blogs.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\pages\\blogs.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs', [], true)
+ 5 APPPATH\Controllers\Pages.php(55): view('pages/blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:39:56 --> Invalid file: pages/blogs , $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/blogs , $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs , $data', [], true)
+ 3 APPPATH\Controllers\Pages.php(55): view('pages/blogs , $data')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:40:12 --> Invalid file: pages/blogs .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/blogs .php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/blogs ', [], true)
+ 3 APPPATH\Controllers\Pages.php(55): view('pages/blogs ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 23:42:24 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 12.
+ 1 APPPATH\Views\layouts\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\header.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(55): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,282 @@
+CRITICAL - 2022-08-23 02:23:12 --> Undefined array key "first_name"
+in APPPATH\Views\layouts\index.php on line 19.
+ 1 APPPATH\Views\layouts\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\layouts\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('layouts/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 02:58:04 --> Unknown column 'blogs.last_name' in 'field list'
+CRITICAL - 2022-08-23 02:58:04 --> Unknown column 'blogs.last_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`last_name`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:02 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:02 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:08 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:08 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:20 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:20 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:20 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:20 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:21 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:21 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:21 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:21 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:03:21 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:03:21 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Sports\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-23 03:04:08 --> Undefined array key "first_name"
+in APPPATH\Views\categories\all.php on line 18.
+ 1 APPPATH\Views\categories\all.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\categories\\all.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('categories/all', [], true)
+ 5 APPPATH\Controllers\Home.php(45): view('categories/all')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sports()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 03:06:29 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 03:06:29 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Politics\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Politics\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Politics\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->politics()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-23 07:27:06 --> Unknown column 'blogs.first_name' in 'field list'
+CRITICAL - 2022-08-23 07:27:06 --> Unknown column 'blogs.first_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Technology\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Technology\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = \'Technology\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `blogs`.`title`, `blogs`.`slug`, `blogs`.`slug`, `author`, `blogs`.`category_id`, `blogs`.`first_name`, `blogs`.`description`, `categories`.`id`, `categories`.`name`
+FROM `blogs`
+JOIN `categories` ON `categories`.`id` = `blogs`.`category_id`
+WHERE `name` = :name:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->technology('$1')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

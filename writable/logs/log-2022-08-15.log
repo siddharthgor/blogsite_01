@@ -1,0 +1,168 @@
+CRITICAL - 2022-08-15 22:50:36 --> syntax error, unexpected identifier "blogs"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 22:50:51 --> syntax error, unexpected single-quoted string "blogs"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-15 23:07:45 --> Unknown column 'blogs.blogs_id' in 'where clause'
+CRITICAL - 2022-08-15 23:07:45 --> Unknown column 'blogs.blogs_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'blog_title\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'blog_title\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'blog_title\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = :blogs.blogs_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'blog_title')
+ 7 APPPATH\Controllers\Home.php(86): CodeIgniter\BaseModel->find('blog_title')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('38', 'webb-space-telescope')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:09:49 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:13:38 --> Undefined array key "blog_title"
+in APPPATH\Controllers\Home.php on line 88.
+ 1 APPPATH\Controllers\Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_title"', 'APPPATH\\Controllers\\Home.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('38', 'webb-space-telescope')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:14:37 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('38', 'webb-space-telescope')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:14:52 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('38', 'webb-space-telescope')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-15 23:16:29 --> Unknown column 'blogs.blogs_id' in 'where clause'
+CRITICAL - 2022-08-15 23:16:29 --> Unknown column 'blogs.blogs_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+WHERE `blog_title` IS NULL
+AND `blogs`.`blogs_id` = \'blog_title\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+WHERE `blog_title` IS NULL
+AND `blogs`.`blogs_id` = \'blog_title\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+WHERE `blog_title` IS NULL
+AND `blogs`.`blogs_id` = \'blog_title\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+WHERE `blog_title` IS NULL
+AND `blogs`.`blogs_id` = :blogs.blogs_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'blog_title')
+ 7 APPPATH\Controllers\Home.php(86): CodeIgniter\BaseModel->find('blog_title')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('38', 'webb-space-telescope')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:16:38 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\blogsite\app\Controllers\Home.php on line 86
+in SYSTEMPATH\BaseModel.php on line 567.
+ 1 APPPATH\Controllers\Home.php(86): CodeIgniter\BaseModel->findAll('blog_title')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->viewblog('38', 'webb-space-telescope')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:51:28 --> Undefined variable $db
+in APPPATH\Controllers\Pages.php on line 299.
+ 1 APPPATH\Controllers\Pages.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Pages.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:53:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(169): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'Hello World')
+ 4 APPPATH\Controllers\Pages.php(299): CodeIgniter\BaseModel->find('Hello World')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-15 23:54:40 --> Unknown column 'blogs.blogs_id' in 'where clause'
+CRITICAL - 2022-08-15 23:54:40 --> Unknown column 'blogs.blogs_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'Hello World\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'Hello World\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'Hello World\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = :blogs.blogs_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'Hello World')
+ 7 APPPATH\Controllers\Pages.php(299): CodeIgniter\BaseModel->find('Hello World')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-15 23:56:38 --> Unknown column 'blogs.blogs_id' in 'where clause'
+CRITICAL - 2022-08-15 23:56:38 --> Unknown column 'blogs.blogs_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'blog_title\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'blog_title\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = \'blog_title\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+WHERE `blogs`.`blogs_id` = :blogs.blogs_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'blog_title')
+ 7 APPPATH\Controllers\Pages.php(300): CodeIgniter\BaseModel->find('blog_title')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 23:57:00 --> Undefined constant "App\Controllers\blog_title"
+in APPPATH\Controllers\Pages.php on line 300.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
