@@ -14,6 +14,7 @@ class Home extends BaseController
         $data['blogs'] = $blogs->orderBy('blog_id', 'desc')->findAll();
         $session = session();
         $this->session = \Config\Services::session();
+        
         echo view('layouts//header', $data);
         echo view('layouts/index');
         echo view('layouts/footer');
